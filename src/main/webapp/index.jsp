@@ -10,24 +10,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
 
     <style>
-        /* ========== ROOT VARIABLES – BLUE FRIENDLY ========== */
+        /* ========== ROOT VARIABLES – ORANGE FRIENDLY ========== */
         :root {
-            --bg: #f5f8fc;
+            --bg: #fefaf5;
             --bg-card: #ffffff;
-            --primary: #1a2e4a;
-            --primary-light: #2d4460;
-            --accent: #3a7ca5;
-            --accent-light: #cfe2f0;
-            --accent-dark: #2a5f7a;
-            --muted: #5f6b7a;
-            --muted-light: #9aa8b8;
-            --surface: #e8f0f8;
+            --primary: #3d2418;
+            --primary-light: #5a3825;
+            --accent: #e87a2e;
+            --accent-light: #fce4d4;
+            --accent-dark: #c4601c;
+            --muted: #7a6558;
+            --muted-light: #b8a89c;
+            --surface: #fdf0e6;
             --success: #2a9d8f;
-            --warning: #e9c46a;
+            --warning: #f0b64a;
             --radius: 16px;
             --radius-sm: 10px;
-            --shadow: 0 4px 24px rgba(26, 46, 74, 0.06);
-            --shadow-hover: 0 12px 48px rgba(26, 46, 74, 0.10);
+            --shadow: 0 4px 24px rgba(61, 36, 24, 0.06);
+            --shadow-hover: 0 12px 48px rgba(61, 36, 24, 0.10);
             --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
             --container: 1240px;
         }
@@ -115,7 +115,7 @@
             background: var(--accent-dark);
             border-color: var(--accent-dark);
             transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(58, 124, 165, 0.30);
+            box-shadow: 0 8px 24px rgba(232, 122, 46, 0.30);
         }
         .btn-secondary {
             background: var(--primary);
@@ -126,12 +126,12 @@
             background: var(--primary-light);
             border-color: var(--primary-light);
             transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(26, 46, 74, 0.20);
+            box-shadow: 0 8px 24px rgba(61, 36, 24, 0.20);
         }
         .btn-outline {
             background: transparent;
             color: var(--primary);
-            border-color: rgba(26, 46, 74, 0.15);
+            border-color: rgba(61, 36, 24, 0.15);
         }
         .btn-outline:hover {
             background: var(--primary);
@@ -162,7 +162,7 @@
             background: rgba(255, 255, 255, 0.92);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
-            border-bottom: 1px solid rgba(26, 46, 74, 0.04);
+            border-bottom: 1px solid rgba(61, 36, 24, 0.04);
         }
         .header-inner {
             display: flex;
@@ -271,7 +271,7 @@
         .search-wrap:focus-within {
             border-color: var(--accent);
             background: #fff;
-            box-shadow: 0 0 0 4px rgba(58, 124, 165, 0.10);
+            box-shadow: 0 0 0 4px rgba(232, 122, 46, 0.10);
         }
         .search-wrap input {
             border: 0;
@@ -312,7 +312,7 @@
         #mobileMenu {
             display: none;
             background: #fff;
-            border-top: 1px solid rgba(26, 46, 74, 0.04);
+            border-top: 1px solid rgba(61, 36, 24, 0.04);
             padding: 12px 0 20px;
         }
         #mobileMenu ul {
@@ -349,7 +349,7 @@
             border-radius: var(--radius);
             overflow: hidden;
             margin: 20px 24px 0;
-            background: linear-gradient(135deg, #1a2e4a 0%, #2d4460 100%);
+            background: linear-gradient(135deg, #3d2418 0%, #5a3825 100%);
         }
         .hero::before {
             content: '';
@@ -365,8 +365,8 @@
         }
         .hero .badge {
             display: inline-block;
-            background: rgba(58, 124, 165, 0.20);
-            color: #a8d0e8;
+            background: rgba(232, 122, 46, 0.20);
+            color: #f7c9a6;
             padding: 4px 16px;
             border-radius: 999px;
             font-weight: 600;
@@ -853,7 +853,7 @@
         footer {
             margin-top: 16px;
             padding: 44px 0 28px;
-            border-top: 1px solid rgba(26, 46, 74, 0.04);
+            border-top: 1px solid rgba(61, 36, 24, 0.04);
         }
         .footer-grid {
             display: grid;
@@ -914,7 +914,7 @@
         .footer-bottom {
             text-align: center;
             padding-top: 20px;
-            border-top: 1px solid rgba(26, 46, 74, 0.04);
+            border-top: 1px solid rgba(61, 36, 24, 0.04);
             color: var(--muted-light);
             font-size: 13px;
         }
@@ -1701,7 +1701,7 @@
             }
         });
 
-        console.log('🚀 NexusShop — blue friendly e‑commerce demo loaded.');
+        console.log('🚀 NexusShop — orange friendly e‑commerce demo loaded.');
     </script>
 
 </body>
